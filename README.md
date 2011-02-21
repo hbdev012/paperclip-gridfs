@@ -1,3 +1,16 @@
+About this Fork
+=========
+
+This fork extends the storage fonctionnality to support Gridfs (Mongo).
+This version works with mongo v1.1.4.
+
+You should add this to your Gemfile :
+	gem "mongo", "1.1.4"
+	gem "bson", "1.1.4"
+	gem "bson_ext", "1.1.4", :require => "bson_ext/cbson"
+	
+
+
 Paperclip
 =========
 
